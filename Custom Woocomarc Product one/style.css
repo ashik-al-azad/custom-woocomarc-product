@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Slabo+27px&display=swap');
+
+body{
+  font-family: 'Slabo 27px', serif;
+  background-color: #F5F5F5;
+}
+
+/* Product Area Start */
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.section-title h2{
+text-align: center;
+font-size: 50px;
+font-family: 'Raleway', sans-serif;
+}
+
+.single-testimonial-item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.testimonial-top {
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+.testimonial-top img {
+   max-width: 100%;
+   max-height: 1000px;
+}
+
+.testimonial-content{
+  width: 500px;
+}
+
+.testimonial-content h2{
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  margin: 20px 0;
+}
+
+.testimonial-content .price{
+  font-size: 30px;
+}
+
+.testimonial-content p{
+  font-size: 15px;
+}
+
+.testimonial-content ul{
+  list-style-image: url(img/download.png);
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.testimonial-content .price-area{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-content .price-area a{
+  color: #999;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.testimonial-content .price-area a:hover{
+  color: #E98383;
+}
+
+.testimonial-content .right-bottom{
+  color: #E98383;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial-content .left{
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.testimonial-content .button-area{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.testimonial-content .button-area a{
+  text-decoration: none;
+  color: #000;
+  transition: all .3s ease;
+}
+
+.testimonial-content .button-area a:hover{
+  color: #E98383;
+}
+
+.testimonial-content .button-area a.hart{
+  font-size: 36px;
+}
+
+.testimonial-content .button-area a.btn{
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 40px;
+  text-transform: capitalize;
+  border-radius: 0;
+  transition: .3s;
+}
+
+.testimonial-content .button-area a.btn:hover{
+  background-color: #E98383;
+}
+
+.testimonial-content .s-c-t{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.testimonial-content .s-c-t a{
+  color: #000;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.testimonial-content .s-c-t a:hover{
+  color: #E98383;
+  text-decoration: underline;
+}
+
+.social-icon i{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #999;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 5px;
+  transition: all .3s ease;
+}
+
+.social-icon i:hover{
+  background-color: #DD4B39;
+  color: #fff;
+}
+
+.testimonial-anthor-name {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+
+.testimonial-anthor-name img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.testimonial-anthor-name li {
+  margin-bottom: 5px;
+}
+
+.testimonial-wrapper {
+  position: relative;
+}
+
+.testimonial-anthor-name li a {
+  opacity: 0.5;
+  
+}
+
+.testimonial-anthor-name li a.active {
+  opacity: 1;
+  border: 5px solid;
+}
